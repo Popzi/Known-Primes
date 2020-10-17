@@ -7,7 +7,8 @@ The task was to generate a list of integers and test for known primes.
 I must warn that this script is not the best example of following standard naming conventions but I will blame it on being a student and not knowing better :-)
 
 ### Run the script
-Upload the assert.css, prime-assert1.html and the prime_calc1s.js to a webserver or run it locally in your browser.
+Upload the assert.css, index.html and the prime_calc1s.js to a webserver or run it locally in your browser.
+You can also check it out here: https://popzi.github.io/Known-Primes/
 
 # Remember
 
