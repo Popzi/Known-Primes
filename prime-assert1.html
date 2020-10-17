@@ -1,0 +1,36 @@
+<!DOCTYPE HTML> 
+<html lang="en-US"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>JavaScript Testing Prime</title> 
+    <link rel="stylesheet" href="assert.css" media="screen">
+    <script src="prime_calc1s.js"></script>
+    <script>
+    function toggle_visibility(classname) {
+       var e = document.getElementsByClassName(classname);
+       for (var i=0; i<e.length; i++) {
+       if(e[i].style.display != 'none')
+        e[i].style.display = 'none';
+       else
+        e[i].style.display = 'block';
+       }
+    }
+</script>
+</head>
+<body> 
+  
+<h2>Prime number tests</h2>
+
+<p>Usage: give a numer x – which follow this rule. 0 <= x <= 1000</p>
+
+<form>
+    <input type="text" name="number">
+    <button type="button" id="inpbtn" onclick='check(number.value);'>Submit</button>
+    <button onclick="localStorage.clear();">Destroy localstorage</button>
+</form>
+
+<ul id="output"></ul> 
+
+<a href="#" onclick="toggle_visibility('fail');">Click here to hide/show failed tests</a>
+</body>
+</html>
